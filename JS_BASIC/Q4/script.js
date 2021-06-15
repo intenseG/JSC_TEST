@@ -1,10 +1,7 @@
 // 4-1
-function confirm() {
-    if (!alert('OKを押してください')) {
-        console.log('OKが選択されました');
-    }
+if (window.confirm('OKを押してください')) {
+    console.log('OKが選択されました');
 }
-confirm();
 
 // 4-2
 function isEvenNumber(num) {
