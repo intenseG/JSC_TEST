@@ -2,8 +2,8 @@
 var banana = {name: "バナナ", price: 200};
 var orange = {name: "オレンジ", price: 100};
 
-console.log(banana['price']);
-console.log(orange['price']);
+console.log(banana['price'] * 0.1);
+console.log(orange['price'] * 0.1);
 
 // 5-2
 console.log(banana['price'] + orange['price']);
